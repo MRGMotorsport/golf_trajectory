@@ -69,15 +69,6 @@ class golf_ball:
         self.sidespin  = sidespin_rpm  # rpm     positive = draw, make negative for fade
 
 
-    def get_xyz_data(self):
-
-        z_list = self.z_pos
-        deleted_item = z_list.pop
-        return z_list
-
-
-
-
     def __str__(self):
         
         # Ball flight information when called
